@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS Clock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
+    <h1>Coder's Clock</h1>
+    <h3>What time is it?</h3>    
+    <span id="clock">&nbsp;</span><br><br>
+    <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        alt="coding" width="300px" height="200px">
+
+    <h2>Task Everyday:</h2>
+    <ul>
+        <li><i class="fas fa-book"></i> Read Bible</li>
+        <li><i class="fas fa-code"></i> Code</li>
+        <li><i class="fas fa-redo-alt"></i> Repeat</li>
+    </ul>
+
+<script src="clock.js"></script>
+</body>
+</html>
