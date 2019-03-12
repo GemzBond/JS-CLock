@@ -1,2 +1,2 @@
 # Javascript CLock
-My very own javascript clck
+My very own javascript clock.
