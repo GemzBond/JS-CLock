@@ -1,2 +1,2 @@
-# Javascript Clock
+# Javascript Cloc
 My very own javascript clock.
